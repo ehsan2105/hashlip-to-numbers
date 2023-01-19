@@ -4,7 +4,7 @@ hash_pas= {}
 for pas in range(1,10000):
     hashing_numbers = sha256(b'%i'% pas).hexdigest()
     hash_pas[hashing_numbers] = pas
-with open(r"c:\Users\Ehsan\Desktop\2.csv") as f:
+with open(r"name file") as f:
     pas_singer = reader(f)
     for row in pas_singer:
         for key in row[1:]:
